@@ -1,16 +1,3 @@
-/* =========================================================================
-   ssdcoursepage.css
-   Purpose : Beautify the existing "boring" CS6302_M26 course page
-             WITHOUT touching a single line of its HTML/markdown.
-   How to use:
-     1. Save this file next to the course page (or in an assets/ folder).
-     2. In the page's <head>, add ONE new line — this only ADDS a link,
-        it does not alter any existing markup:
-          <link rel="stylesheet" href="ssdcoursepage.css">
-     Everything below targets plain tag selectors (table, a, h1...) so it
-     works regardless of the page's existing structure/classes.
-   ========================================================================= */
-
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Inter:wght@400;500;600&display=swap');
 
 :root{
@@ -24,7 +11,6 @@
   --ssd-radius:    14px;
 }
 
-/* ---------- base page ---------- */
 html, body{
   background:var(--ssd-bg) !important;
   color:var(--ssd-ink) !important;
@@ -37,7 +23,7 @@ body{
   padding:2rem 1.25rem 4rem !important;
 }
 
-/* ---------- headings ---------- */
+
 h1, h2, h3, h4{
   font-family:'Sora', system-ui, sans-serif !important;
   color:var(--ssd-ink) !important;
@@ -50,7 +36,7 @@ h2, h3{
   margin-top:2.2rem !important;
 }
 
-/* ---------- links ---------- */
+
 a{
   color:var(--ssd-accent) !important;
   text-decoration:none !important;
@@ -62,14 +48,14 @@ a:hover{
   color:#a7f3d0 !important;
 }
 
-/* ---------- horizontal rules used as section dividers ---------- */
+
 hr{
   border:none !important;
   border-top:1px dashed var(--ssd-line) !important;
   margin:2.5rem 0 !important;
 }
 
-/* ---------- every table (about box, grading table, schedule, staff) ---------- */
+
 table{
   width:100% !important;
   border-collapse:separate !important;
@@ -108,7 +94,7 @@ table:first-of-type tr:first-child td{
   padding:1.4rem 1rem !important;
   color:#fff !important;
 }
-/* the "| About | Lecture | Course Policy | ... |" nav row -> pill nav */
+
 table:first-of-type tr:nth-child(2) td{
   padding:.8rem 1rem !important;
 }
@@ -126,11 +112,11 @@ table:first-of-type tr:nth-child(2) a:hover{
   color:#0f1220 !important;
 }
 
-/* zebra striping for the long schedule/lab/exam tables */
+
 table tr:nth-child(even) td{
   background:rgba(255,255,255,.02);
 }
-/* sticky-ish header row for schedule tables (rows with th) */
+
 th{
   background:var(--ssd-bg) !important;
   color:var(--ssd-accent-2) !important;
@@ -140,7 +126,7 @@ th{
   font-weight:600 !important;
 }
 
-/* code-ish inline bits, e.g. "🏛", "💻" lines and bolded labels */
+
 strong{ color:#fff; }
 b{ color:#fff; }
 code{
@@ -151,7 +137,6 @@ code{
   font-size:.85em;
 }
 
-/* footer strip */
 body > *:last-child{
   color:var(--ssd-muted) !important;
   font-size:.82rem;
@@ -159,13 +144,13 @@ body > *:last-child{
   margin-top:2.5rem !important;
 }
 
-/* subtle scrollbar */
+
 ::-webkit-scrollbar{ width:10px; height:10px; }
 ::-webkit-scrollbar-track{ background:var(--ssd-bg); }
 ::-webkit-scrollbar-thumb{ background:var(--ssd-line); border-radius:8px; }
 ::-webkit-scrollbar-thumb:hover{ background:var(--ssd-accent-2); }
 
-/* responsive: let wide schedule tables scroll instead of squeezing */
+
 @media (max-width: 720px){
   table{ display:block; overflow-x:auto; white-space:nowrap; }
   body{ padding:1.25rem !important; }
