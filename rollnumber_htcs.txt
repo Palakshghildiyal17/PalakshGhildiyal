@@ -1,12 +1,12 @@
-Name        : <Your Name>
-Roll Number : <YourRollNumber>
+Name        : Palaksh Ghildiyal
+Roll Number : 2026204015
 Course      : CS6.302 - Software System Development (Monsoon 2026)
 
 1. Personal GitHub Pages URL:
-   https://<your-github-username>.github.io/
+ https://github.com/Palakshghildiyal17/PalakshGhildiyal
 
 2. Beautified SSD Course Page URL:
-   https://<your-github-username>.github.io/ssdcoursepage.html
+   https://github.com/Palakshghildiyal17/PalakshGhildiyal/blob/main/ssdcoursepage.css
 
 Notes:
 - Personal page built with plain HTML5 + CSS (no frameworks), includes About,
