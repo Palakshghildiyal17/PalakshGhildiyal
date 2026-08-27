@@ -1,0 +1,15 @@
+Name        : <Your Name>
+Roll Number : <YourRollNumber>
+Course      : CS6.302 - Software System Development (Monsoon 2026)
+
+1. Personal GitHub Pages URL:
+   https://<your-github-username>.github.io/
+
+2. Beautified SSD Course Page URL:
+   https://<your-github-username>.github.io/ssdcoursepage.html
+
+Notes:
+- Personal page built with plain HTML5 + CSS (no frameworks), includes About,
+  Education, Work Experience, Skills/Interests, Hobbies, Picture Gallery, and Contact.
+- Course page was beautified by linking a new stylesheet (ssdcoursepage.css) in
+  the <head>; no existing HTML/content was modified.

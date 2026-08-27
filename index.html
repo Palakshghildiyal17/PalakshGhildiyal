@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Your Name - My Website</title>
+<style>
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #003366;
+}
+
+h2 {
+  color: #003366;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 5px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #cccccc;
+}
+
+.navbar {
+  background-color: #003366;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.profile-pic {
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #003366;
+  width: 150px;
+  height: 150px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #999999;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+.gallery img {
+  width: 150px;
+  height: 100px;
+  margin: 5px;
+  border: 2px solid #999999;
+}
+
+footer {
+  text-align: center;
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+a {
+  color: #0000EE;
+}
+
+hr {
+  border: 1px solid #cccccc;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+  <a href="#about">About</a> |
+  <a href="#education">Education</a> |
+  <a href="#hobbies">Hobbies</a> |
+  <a href="#gallery">Gallery</a> |
+  <a href="#work">Work</a> |
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="container">
+
+  <h1>Hi, I'm Your Name!</h1>
+
+  <img class="profile-pic" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='150'><rect width='150' height='150' fill='%23dddddd'/><text x='50%' y='50%' font-size='14' text-anchor='middle' fill='%23555555'>your photo</text></svg>" alt="My photo">
+
+  <p style="text-align:center;"><i>Welcome to my personal website!</i></p>
+
+  <hr>
+
+  <h2 id="about">About Me</h2>
+  <p>
+    Hello! My name is Your Name and I am a student at IIIT Hyderabad.
+    I am currently pursuing my degree in Computer Science. I made this website
+    for my Software System Development course. I am still learning HTML and CSS
+    so please excuse if things look simple :)
+  </p>
+
+  <h2 id="education">Education</h2>
+  <ul>
+    <li><b>M.Tech in Computer Science</b> - IIIT Hyderabad (2026 - Present)</li>
+    <li><b>B.Tech in Computer Science</b> - Your College Name (2021 - 2025)</li>
+    <li><b>Higher Secondary</b> - Your School Name</li>
+  </ul>
+
+  <h2 id="hobbies">Hobbies and Interests</h2>
+  <ul>
+    <li>Playing cricket</li>
+    <li>Listening to music</li>
+    <li>Reading books</li>
+    <li>Coding small projects</li>
+    <li>Watching movies</li>
+  </ul>
+
+  <h2 id="gallery">Picture Gallery</h2>
+  <div class="gallery">
+    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='100'><rect width='150' height='100' fill='%23eeeeee'/><text x='50%' y='50%' font-size='12' text-anchor='middle' fill='%23555555'>photo 1</text></svg>" alt="photo 1">
+    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='100'><rect width='150' height='100' fill='%23eeeeee'/><text x='50%' y='50%' font-size='12' text-anchor='middle' fill='%23555555'>photo 2</text></svg>" alt="photo 2">
+    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='100'><rect width='150' height='100' fill='%23eeeeee'/><text x='50%' y='50%' font-size='12' text-anchor='middle' fill='%23555555'>photo 3</text></svg>" alt="photo 3">
+  </div>
+  <p><i>(Replace these boxes with your own pictures later!)</i></p>
+
+  <h2 id="work">Work Experience</h2>
+  <table>
+    <tr>
+      <th>Role</th>
+      <th>Place</th>
+      <th>Duration</th>
+    </tr>
+    <tr>
+      <td>Intern</td>
+      <td>Company Name</td>
+      <td>Summer 2025</td>
+    </tr>
+    <tr>
+      <td>Teaching Assistant</td>
+      <td>Your College</td>
+      <td>2024 - 2025</td>
+    </tr>
+  </table>
+
+  <h2>My Skills</h2>
+  <ul>
+    <li>HTML &amp; CSS</li>
+    <li>Python</li>
+    <li>Java</li>
+    <li>SQL</li>
+    <li>Git / GitHub</li>
+  </ul>
+
+  <h2 id="contact">Contact Me</h2>
+  <p>
+    Email: <a href="mailto:yourname@students.iiit.ac.in">yourname@students.iiit.ac.in</a><br>
+    GitHub: <a href="https://github.com/yourhandle" target="_blank">github.com/yourhandle</a><br>
+    LinkedIn: <a href="https://linkedin.com/in/yourhandle" target="_blank">linkedin.com/in/yourhandle</a>
+  </p>
+
+</div>
+
+<footer>
+  &copy; 2026 Your Name. Made for CS6.302 - Software System Development, IIIT Hyderabad.
+</footer>
+
+</body>
+</html>
