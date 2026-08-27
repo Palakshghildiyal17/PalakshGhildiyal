@@ -1,5 +1,10 @@
 # CS6.302 — HTML/CSS Assignment Kit
 
+Name-Palaksh Ghildiyal
+Roll no-2026204015
+
+
+
 Files in this folder:
 
 - **index.html** — your personal GitHub Pages site (About, Education, Work
@@ -10,14 +15,14 @@ Files in this folder:
   page (dark theme, pill-style nav, card-style tables, zebra striping,
   hover states) using only generic tag selectors, so it does not require
   changing any existing HTML content.
-- **rollnumber_htcs.txt** — the submission file template; rename it to
-  `<yourrollnumber>_htcs.txt` and fill in your URLs.
+- **2026204015._htcs.txt** — the submission file template; rename it to
+  `<2026204015>_htcs.txt` and fill in your URLs.
 
 ## Part 1 — Personal github.io page
 
-1. Create a repo named exactly `<your-github-username>.github.io`.
+1. Create a repo named exactly `<PalakshGhildiyal>.github.io`.
 2. Edit `index.html`:
-   - Replace every "Your Name", "2026XXXXX", timeline, experience, skills,
+   - Replace every "Your Name", "2026204015", timeline, experience, skills,
      and contact placeholder with your real details.
    - Swap the inline SVG `<img>` placeholders in the Hero and Gallery
      sections for real photos (e.g. `assets/profile.jpg`).
@@ -42,10 +47,10 @@ own repo and layer your CSS on top:
    <link rel="stylesheet" href="ssdcoursepage.css">
    ```
 4. Commit and push. It will be live at
-   `https://<your-github-username>.github.io/ssdcoursepage.html`.
+   `https://<PalakshGhildiyal>.github.io/ssdcoursepage.html`.
 
 ## Part 3 — Submit
 
-1. Rename `rollnumber_htcs.txt` to `<yourrollnumber>_htcs.txt`.
+1. Rename `2026204015_htcs.txt` to `<2026204015>_htcs.txt`.
 2. Fill in your two live URLs from Parts 1 and 2.
 3. Submit that `.txt` file per the course's submission instructions.
